@@ -1,6 +1,7 @@
 class SwitchFish extends Fish {
 
   onClick(event) {
-    this.makeNewVelocity(50);
+    console.log(this instanceof Fish)
+    this.makeNewVelocity(50)
   }
 }
